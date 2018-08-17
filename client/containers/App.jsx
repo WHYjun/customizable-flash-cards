@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class App extends Component {
   render () {
-    return <h1>Hello React!</h1>
+    return <h1>Customizable Flash Cards</h1>
   }
 }
 
