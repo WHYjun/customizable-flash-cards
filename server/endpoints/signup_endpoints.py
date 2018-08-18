@@ -10,7 +10,7 @@ import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 log_formatter = logging.Formatter('%(asctime)s:%(name)s:%(message)s')
-file_handler = logging.FileHandler('server/logs/signup_endpoints.log')
+file_handler = logging.FileHandler('logs/signup_endpoints.log')
 file_handler.setFormatter(log_formatter)
 logger.addHandler(file_handler)
 
