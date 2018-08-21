@@ -1,0 +1,13 @@
+.footer {
+  display: block;
+  color: white;
+  background: gray;
+  align-items: center;
+  text-transform: uppercase;
+}
+.footer-content {
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
